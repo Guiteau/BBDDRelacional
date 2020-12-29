@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="69.0" prefWidth="600.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaMysql_procedimientoCantidadFutbolistas_label_nomEquipo" text="Nombre de equipo">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="insertaMysql_procedimientoCantidadFutbolistas_textField_nomEquipo">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaMysql_procedimientoCantidadFutbolistas_label_precioAnual" text="Precio Anual ">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="insertaMysql_procedimientoCantidadFutbolistas_textField_precioAnual">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaMysql_procedimientoCantidadFutbolistas_label_precioRescision" text="Precio Rescisión">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="insertaMysql_procedimientoCantidadFutbolistas_textField_precioRescision">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Button fx:id="insertaMysql_procedimientoCantidadFutbolistas_buttonCancel" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="Cancelar">
+               <HBox.margin>
+                  <Insets left="250.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="insertaMysql_procedimientoCantidadFutbolistas_buttonAccept" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="Aceptar">
+               <HBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

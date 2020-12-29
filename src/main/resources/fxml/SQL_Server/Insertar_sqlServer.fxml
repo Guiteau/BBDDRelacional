@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="69.0" prefWidth="600.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaSQL_label_nomEquipo" text="Nombre de equipo">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="insertaSQL_textField_nomEquipo">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaSQL_label_nomLiga" text="Liga">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <ComboBox fx:id="insertaSQL_comboBox_nomLiga" prefWidth="250.0">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin>            
+               </ComboBox>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaSQL_label_localidad" text="Localidad">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <TextField fx:id="insertaSQL_textField_localidad">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+         <children>
+            <Label fx:id="insertaSQL_label_internacional" text="Internacional">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin></Label>
+            <CheckBox fx:id="insertaSQL_checkBox_internacional" mnemonicParsing="false">
+               <HBox.margin>
+                  <Insets left="15.0" top="40.0" />
+               </HBox.margin>
+            </CheckBox>
+            <Button fx:id="insertaSQL_buttonCancel" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="Cancelar">
+               <HBox.margin>
+                  <Insets left="250.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="insertaSQL_buttonAccept" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="Aceptar">
+               <HBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
